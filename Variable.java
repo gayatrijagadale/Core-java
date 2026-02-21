@@ -1,6 +1,6 @@
 public class Variable  {
     
-    public static void main(String a[]){
+    public static void main(string1 a[]){
 
         int num1 = 3;   //variable
         int num2 = 5;

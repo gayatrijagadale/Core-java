@@ -11,8 +11,30 @@ public interface DataType {
         
 
         char c = 'k';    //char     ->2 bytes
-        
+        String  str = "Alex";
+
         boolean  b = true;   //boolean -> 1bytes
+        System.out.println("Name:"+str+","+"age"+num1);
+
+
+        //literals
+
+        int num = 0b101;   //binary number(5)
+        int num2 = 0x7E;   //hexadecimal number
+        System.out.println(num);
+
+        int num3 = 10_00_00_000;
+        double num4= 56;    //convert int to float
+
+        double num5 = 12e10;
+        System.out.println(num5);
+
+        char a = 'a';
+        a++;
+        System.out.println(a);
+           
+
+
         
         
     }
